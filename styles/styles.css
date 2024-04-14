@@ -64,4 +64,129 @@
 .btn-buildsphere:hover{
     background-color: var(--third-color);
 }
+/*STYLES FOR ABOUT US SECTION*/
+.about-us {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
+/*STYLES FOR HEADER OF ABOUT US SECTION*/
+.about-us-header {
+    background-color: var(--second-color);
+    text-align: center;
+    padding: 1.25rem 0;
+    color: var(--third-color);
+}
+
+/*STYLES FOR CONTENT OF ABOUT US SECTION*/
+.about-us-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--second-color);
+    color: var(--third-color);
+    padding-bottom: 1.25rem;
+}
+
+/*STYLES FOR IMAGE OF ABOUT US SECTION*/
+.about-us-image {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*STYLES FOR IMAGE OF ABOUT US SECTION*/
+.about-us-image img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh;
+    border-radius: 10px;
+}
+
+/*STYLES FOR TEXT OF ABOUT US SECTION*/
+.about-us-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 1.25rem;
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*STYLES FOR RESPONSIVE DESIGN*/
+@media (max-width: 48em) {
+    .about-us-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-image, .about-us-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .about-us-image img {
+        max-height: none;
+    }
+}
+/* STYLES FOR FEATURES SECTION */
+.features {
+    background-color: var(--principal-color);
+    padding: 2rem 0;
+    text-align: center;
+}
+/* STYLES FOR TITLE OF FEATURES SECTION */
+.features-title {
+    color: var(--third-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* STYLES FOR FEATURES SECTION */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+/* STYLES FOR FEATURE ITEM */
+.feature-item {
+    width: auto;
+    max-width: 30%;
+    background-color: var(--second-color);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 1rem 2rem;
+    box-sizing: border-box;
+}
+/* STYLES FOR FEATURE ITEM TITLE AND DESCRIPTION */
+.feature-item h3 {
+    color: var(--third-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+/* STYLES FOR FEATURE ITEM DESCRIPTION */
+.feature-item p {
+    color: var(--third-color);
+    line-height: 1.6;
+}
+/* STYLES FOR RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-item {
+        width: auto;
+        max-width: 80%;
+        margin: 1rem auto;
+    }
+}
