@@ -138,6 +138,108 @@
         max-height: none;
     }
 }
+
+/* STYLES FOR PLANS SECTION */
+.plans-section {
+    background-color: var(--second-color);
+    padding: 2rem 0;
+    text-align: center;
+}
+/* STYLES FOR TITLE OF PLANS SECTION */
+.plans-title {
+    color: var(--fourth-color);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+/* STYLES FOR PLANS SECTION */
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+/* STYLES FOR PLANS ITEM */
+.plans-item {
+    width: 398px;
+    height: 702px;
+    max-width: 30%;
+    background-color: var(--principal-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 1rem 2rem;
+    box-sizing: border-box;
+
+    
+}
+/* STYLES FOR PLANS ITEM TITLE AND DESCRIPTION */
+.plans-item-title {
+    color: var(--third-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 3.16rem;
+    padding-top: 1rem;
+}
+/* STYLES FOR PLANS ITEM DESCRIPTION */
+.plans-item-description {
+    color: var(--third-color);
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 5.38rem;
+    font-size: 1.3rem;
+}
+
+/* STYLES FOR PLANS ITEM LIST */
+.plans-item-ul {
+    color: var(--third-color);
+    line-height: 1.6;
+    padding-bottom: 8.38rem;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+/* STYLES FOR PLANS ITEM PRICE */
+.plans-item-price {
+    color: var(--black);
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 7rem;
+}
+
+/* BUTTON GET NOW */
+.btn-get-now {
+    background-color: var(--fourth-color);
+    color: var(--principal-color);
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .btn-get-now:hover{
+    background-color: var(--principal-color);
+    color: var(--fourth-color);
+}
+
+/* STYLES FOR RESPONSIVE DESIGN PLANS */
+@media (max-width: 768px) {
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans-item {
+        width: auto;
+        max-width: 80%;
+        margin: 1rem auto;
+    }
+}
+
 /* STYLES FOR FEATURES SECTION */
 .features {
     background-color: var(--principal-color);
@@ -191,6 +293,82 @@
     }
 }
 
+/* STYLES FOR MISSION AND VISION SECTION*/
+
+.mv-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-color);
+}
+
+.mv-title-header {
+    padding-top: 3rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.mv-title {
+    text-align: center;
+    color: var(--third-color);
+}
+
+.mv-block {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.mv-block-title {
+    text-align: center;
+    color: var(--third-color);
+    font-size: 2rem;
+    
+    margin-bottom: 1rem;
+    
+}
+
+.mv-block-content {
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+.mv-block-img {
+    width: 50%;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right:5rem;
+
+}
+
+.mv-block-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mv-container:nth-child(odd) .mv-block-img {
+    order: 2; 
+}
+
+.mv-container:nth-child(even) .mv-block-content {
+    order: 2;
+}
+
+/* RESPONSIVE DESIGN FOR MISSION AND VISION */
+@media (max-width: 768px) {
+    .mv-block-content, .mv-block-img {
+        width: 100%;
+        order: 0; 
+    }
+}
 
 /* STYLES FOR CONTENT FORM */
 .content-form{
