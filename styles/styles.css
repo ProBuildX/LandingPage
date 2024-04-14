@@ -1,0 +1,67 @@
+/*Set variables to colors*/
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --principal-color: #FBC12E;
+    --second-color: #9C733A;
+    --third-color: #412B19;
+    --fourth-color: #F7F4F3;
+}
+/* BACKGROUND COLOR FOR NAVBAR*/
+.bg-buildsphere{
+    background-color: var(--second-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*STYLES FOR BANNER*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: var(--principal-color);
+    color: var(--third-color);
+    font-weight: bold;
+}
+
+/*STYLES FOR RIGHT SIDE BANNER*/
+.banner-right-side{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/*SPACING FOR TEXT AND BUTTONS*/
+.text-button-banner{
+    margin: 20%;
+}
+
+/*JUSTIFYING CONTENT FOR LEFT SIDE*/
+.banner-left-side{
+    display: flex;
+    width: 50%;
+}
+
+/*BORDER FOR IMG OF BANNER*/
+.principal-banner{
+    border-radius: 10px;
+}
+
+/*STYLES FOR BUTTONS OF BANNER*/
+.btn-buildsphere{
+    background-color: var(--second-color);
+    padding: 13px 23px;
+    color: var(--fourth-color);
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.btn-buildsphere:hover{
+    background-color: var(--third-color);
+}
+
