@@ -227,6 +227,10 @@
     color: var(--fourth-color);
 }
 
+  .btn-no-link{
+      text-decoration: none;
+  }
+
 /* STYLES FOR RESPONSIVE DESIGN PLANS */
 @media (max-width: 768px) {
     .plans {
