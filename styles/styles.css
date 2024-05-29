@@ -442,35 +442,10 @@
 
 /* FOOTER STYLES */
 
-.footer-section{
-    /*background-color: #9C733A;*/
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.menu-footer-section{
-    
-    padding: 1rem 0;
-}
-
-.wrap-social-logos ul, .wrap-menu-footer-section ul{
-    display: flex;
-    justify-content: center;
-}
-
-.social-logo{
-    max-width: 75px;
-    width: 100%;
+.footer{
+    background-color: #FBC12E;
+    color: #f3f7f7;
+    text-align: center;
     padding: 1rem;
-}
-
-.wrap-menu-footer-section ul li{
-    font-size: 1.1rem;
-    padding: 1.5rem;
-}
-
-.footer-creds{
-    display: flex;
-    justify-content: center;
 }
 
