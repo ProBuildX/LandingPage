@@ -440,6 +440,7 @@
     }
 }
 
+<<<<<<< HEAD
 /* FOOTER STYLES */
 
 .footer{
@@ -449,3 +450,18 @@
     padding: 1rem;
 }
 
+=======
+.lang-dropdown {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.nav-item-dropdowm {
+display: flex;
+    align-items: center;
+}
+
+.language {
+    color: var(--third-color);
+}
+>>>>>>> 565b0c2 (feat(change-language): added a script in index.html and spanish.html for the change of language function, added the style for the new dropdown.)

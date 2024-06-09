@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+
+    <script>
+        function changeLang(lang) {
+            if (lang === 'es') {
+                window.location.href = 'spanish.html';
+            } else if(lang === 'en') {
+                window.location.href = 'index.html';
+            }
+        }
+    </script>
     <!--Scale logo-->
     <link rel="apple-touch-icon" sizes="57x57" href="Assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="Assets/images/favicon/apple-icon-60x60.png">
@@ -54,8 +64,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <!--Tittle-->
+    <!--Title-->
     <title>BuildSphere</title>
+
 </head>
 <body>
 <header>
@@ -81,6 +92,13 @@
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link" href="#ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item nav-item-dropdowm px-3">
+                        <label class="language" for="lang">Choose a language: </label>
+                        <select class="lang-dropdown" name="lang" id="lang" onchange="changeLang(this.value)">
+                            <option value="en">English</option>
+                            <option value="es">Spanish</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -256,9 +274,6 @@
             </div>
         </div>
     </div>
-
-
-
 
 </main>
 
