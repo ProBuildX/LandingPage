@@ -439,3 +439,17 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.lang-dropdown {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.nav-item-dropdowm {
+display: flex;
+    align-items: center;
+}
+
+.language {
+    color: var(--third-color);
+}
