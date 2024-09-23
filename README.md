@@ -1,6 +1,6 @@
-# Buildsphere Landing Page
+# ProBuildX Landing Page
 
-¡Bienvenido a Buildsphere!
+¡Bienvenido a ProBuildX!
 
 Este repositorio contiene el código fuente de la landing page de Buildsphere, una producto de ConstruTech.
 
