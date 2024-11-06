@@ -1,0 +1,114 @@
+// Body-light
+$body-bg: #fff;
+$body-color: #1C344D;
+
+
+
+// Body-dark
+$body-bg-dark: rgb(17, 24, 39);
+$body-color-dark: #DDE6ED;
+
+// $color-mode-type: data;
+
+//$input-border-color: $gray-500;
+
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+$h0-font-size: $font-size-base*4;
+$h7-font-size: $font-size-base*0.85;
+$h8-font-size: $font-size-base*0.75;
+
+$accordion-icon-width: 1.8rem;
+    $enable-negative-margins: true;
+$enable-cssgrid: false;
+
+// Colors
+$blue: #0d6efd;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #FF5A0A;
+$yellow: #fbc12e;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$white: #fff;
+$black: #2e2211;
+$gray: #808080;
+
+
+$primary: #0d6efd;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc200;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$your_awsome_colors: (
+  "gray-100": #f8f9fa,
+  "gray-200": #e9ecef,
+  "gray-300": #dee2e6,
+  "gray-400": #ced4da,
+  "gray-500": #adb5bd,
+  "gray-600": #6c757d,
+  "gray-700": #495057,
+  "gray-800": #343a40,
+  "gray-900": #212529
+) !default;
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800
+) !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);

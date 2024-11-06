@@ -1,0 +1,38 @@
+// // Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+
+
+// // Variables
+@import 'variables';
+// // Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/functions";
+
+$custom-colors: (
+    'transparent': transparent,
+);
+
+
+@import "bootstrap/scss/variables";
+// // Importing Bootstrap variables
+
+
+// // Merging maps for colors utilities generation
+
+
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/helpers";
+
+
+// // Custom
+@import "custom";
+
+@import "bootstrap/scss/utilities/api";
+
+@import "main"

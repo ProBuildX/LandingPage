@@ -1,0 +1,52 @@
+:root {
+    --bs-spacer-1 : #{$spacer* 0.25};
+    --bs-spacer-2 : #{$spacer * 0.5};
+    --bs-spacer-3 : #{$spacer};
+    --bs-spacer-4 : #{$spacer * 1.5};
+    --bs-spacer-5 : #{$spacer * 3};
+
+    --bs-fs-1: #{$font-size-base * 2.5};
+    --bs-fs-2: #{$font-size-base * 2};
+    --bs-fs-3: #{$font-size-base* 1.75};
+    --bs-fs-4: #{$font-size-base* 1.5};
+    --bs-fs-5: #{$font-size-base * 1.25};
+    --bs-fs-6: #{$font-size-base};
+}
+
+// Definir breakpoints
+$breakpoints: (
+  xs: 0,        // Extra small (default)
+  sm: 576px,    // Small
+  md: 768px,    // Medium
+  lg: 992px,    // Large
+  xl: 1200px,   // Extra large
+  xxl: 1400px   // Extra extra large
+);
+
+// Mixin para generar las clases vh-*
+@mixin vh-classes($breakpoints) {
+  @each $name, $breakpoint in $breakpoints {
+    // Generar la clase vh-#{$name}-100 para cada tamaño de pantalla
+    @media (min-width: $breakpoint) {
+      .vh-#{$name}-100 {
+        height: 100vh;
+      }
+      .vh-#{$name}-75 {
+        height: 75vh;
+      }
+      .vh-#{$name}-50 {
+        height: 50vh;
+      }
+      .vh-#{$name}-25 {
+        height: 25vh;
+      }
+    }
+  }
+}
+
+// Generar las clases vh-* usando el mixin y los breakpoints
+@include vh-classes($breakpoints);
+
+.cp {
+    cursor: pointer;
+}
